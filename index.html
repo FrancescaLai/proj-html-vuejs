@@ -7,6 +7,8 @@
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
   <!-- Vue -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <!-- Font-awesome -->
@@ -19,47 +21,61 @@
 </head>
 <body>
 
-  <header>
+  <div id="root">
+    <header>
 
-    <nav class="top-navbar">
-      <div class="nav-left">
-        <i class="fas fa-clock"></i>
-        <p>Open Hours: Mon - Sat - 9.00 - 18.00 </p>
+      <nav v-for="(data, index) in topNavbar" class="top-navbar">
+        <div class="nav-left">
+          <i class="fas fa-clock"></i>
+          <p>Open Hours:<span>{{ data.openingDays }}</span> - <span>{{ data.openingHours }}</span> </p>
+        </div>
+        <div class="nav-right">
+          <div class="contact-info">
+            <i class="fas fa-phone-alt"></i>
+            <p>{{ data.phoneNumber }}</p>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <p>{{ data.email }}</p>
+          </div>
+          <div class="contact-info">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="bottom-navbar">
+          <p class="logo"><span>NEX</span>GEN</p>
+          <div v-for="(item, index) in navList" class="nav-list">
+            <p>{{ item.home }}</p>
+            <p>{{ item.about }}</p>
+            <p>{{ item.project }}</p>
+            <p>{{ item.process }}</p>
+            <p>{{ item.testimonials }}</p>
+            <i class="far fa-user"></i>
+            <button class="btn btn-full" type="button" name="button">{{ item.button }}</button>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <div class="content">
+            <p>HUMAN RESOURCES</p>
+            <h1>Get More <span>Productivity</span></h1>
+            <p class="hero-text">Planning, recruitment and selection process and performance evaluation of employees. </p>
+            <div class="buttons">
+              <button class="btn btn-full" type="button" name="button">GET IN TOUCH</button>
+              <button class="btn btn-empty" type="button" name="button">READ MORE</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="nav-right">
-        <div class="contact-info">
-          <i class="fas fa-phone-alt"></i>
-          <p>+1 (305)1234-5678</p>
-        </div>
-        <div class="contact-info">
-          <i class="fas fa-envelope"></i>
-          <p>hello@nexgen.com</p>
-        </div>
-        <div class="contact-info">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-        </div>
-      </div>
-    </nav>
 
-    <div class="hero">
-      <div class="bottom-navbar">
-        <p class="logo"><span>NEX</span>GEN</p>
-        <div class="nav-list">
-          <p>HOME</p>
-          <p>ABOUT</p>
-          <p>PROJECTS</p>
-          <p>PROCESS</p>
-          <p>TESTIMONIALS</p>
-          <i class="far fa-user"></i>
-          <button class="btn btn-full" type="button" name="button">GET IN TOUCH</button>
-        </div>
+    </header>
 
-      </div>
-    </div>
-
-  </header>
+  </div>
 
 
 

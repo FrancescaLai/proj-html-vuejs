@@ -1,9 +1,22 @@
+.buttons {
+  margin-top: 30px;
+}
+
 .btn {
-  background-color: #1a948f;
   padding: 8px 15px;
-  border-radius: 3px;
-  border: 1px solid #1a948f;
   color: #ffff;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.btn-full {
+  background-color: #1a948f;
+  border: 1px solid #1a948f;
+}
+
+.btn-empty {
+  background-color: transparent;
+  border: 1px solid #1a948f;
 }
 
 * {
@@ -20,9 +33,9 @@ header {
   background-color: #21333E;
 }
 header .top-navbar {
-  max-width: 950px;
-  padding: 10px 0px;
-  color: #ffff;
+  max-width: 800px;
+  padding: 15px 0px;
+  color: #babdbe;
   font-size: 14px;
   font-weight: lighter;
   margin: auto;
@@ -58,17 +71,52 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-repeat: no-repeat;
 }
 .hero .bottom-navbar {
-  max-width: 950px;
+  max-width: 800px;
   margin: auto;
   color: #ffff;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-top: 25px;
+}
+.hero .bottom-navbar .logo {
+  font-weight: 500;
+  color: #babdbe;
+}
+.hero .bottom-navbar .logo span {
+  background-color: rgba(9, 122, 124, 0.3);
+  color: #1a948f;
+  padding: 7px 3px 7px 20px;
+  border-radius: 15px 0px 0px 15px;
+  margin-right: 3px;
 }
 .hero .bottom-navbar .nav-list {
   display: flex;
   align-items: center;
 }
 .hero .bottom-navbar .nav-list p, .hero .bottom-navbar .nav-list i {
-  padding-right: 35px;
+  padding-right: 20px;
+}
+.hero .hero-content {
+  height: 200px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 85px;
+}
+.hero .hero-content .content {
+  width: 60%;
+}
+.hero .hero-content .content p {
+  color: #1a948f;
+}
+.hero .hero-content .content h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 46px;
+  color: #ffff;
+}
+.hero .hero-content .content .hero-text {
+  margin-top: 15px;
+  color: #babdbe;
+  word-spacing: 1.5px;
+  letter-spacing: 0.8px;
 }

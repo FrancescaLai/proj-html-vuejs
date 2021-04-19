@@ -13,15 +13,56 @@
     max-width: $small_container;
     margin: auto;
     color: $main_color_white;
-    display: flex;
+    @include centered;
     justify-content: space-between;
     padding-top: 25px;
+
+    .logo{
+      font-weight: 500;
+      color: $main_color_grey;
+
+      & span{
+        background-color: rgba(9, 122, 124, 0.3);
+        color: $main_color_green;
+        padding: 7px 3px 7px 20px;
+        border-radius: 15px 0px 0px 15px;
+        margin-right: 3px;
+      }
+    }
 
     .nav-list{
       @include centered;
 
       p, i{
-        padding-right: 35px;
+        padding-right: 20px;
+      }
+    }
+  }
+
+  .hero-content{
+    height: 200px;
+    max-width: $small_container;
+    margin: auto;
+    margin-top: 85px;
+
+    .content{
+      width: 60%;
+
+      p{
+        color: $main_color_green;
+      }
+
+      h1{
+        font-family: 'Dela Gothic One', cursive;
+        font-size: $font_big;
+        color: $main_color_white;
+      }
+
+      .hero-text{
+        margin-top: 15px;
+        color: $main_color_grey;
+        word-spacing: 1.5px;
+        letter-spacing: 0.8px;
       }
     }
   }

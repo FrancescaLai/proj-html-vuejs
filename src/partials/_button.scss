@@ -1,7 +1,20 @@
+.buttons{
+  margin-top: 30px;
+}
+
 .btn{
-  background-color: #1a948f;
   padding: $btn_padding;
-  border-radius: $btn_border_radius;
-  border: $btn_border_full;
   color: $main_color_white;
+  border-radius: $btn_border_radius;
+  margin-right: 5px;
+}
+
+.btn-full{
+  background-color: #1a948f;
+  border: $btn_border_full;
+}
+
+.btn-empty{
+  background-color: $btn_transparent;
+  border: 1px solid $main_color_green;
 }

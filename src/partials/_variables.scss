@@ -1,15 +1,22 @@
 // Container
-$small_container: 950px;
+$small_container: 800px;
 
 // Colors
+$main_color_grey: #babdbe;
 $main_color_white: #ffff;
 $main_color_green: #1a948f;
+$strong_color_green: #097a7c;
+
+
+
 
 // Font Size
 $font_small: 14px;
+$font_big: 46px;
 
 // Buttons
 $btn_padding: 8px 15px;
 $btn_border_empty: 1px solid #fff;
 $btn_border_full: 1px solid #1a948f;
 $btn_border_radius: 3px;
+$btn_transparent: transparent;
