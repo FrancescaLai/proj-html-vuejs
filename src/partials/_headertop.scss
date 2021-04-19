@@ -1,0 +1,44 @@
+@mixin centered {
+  display: flex;
+  align-items: center;
+}
+
+header{
+  background-color: #21333E;
+
+  .top-navbar{
+    max-width: $small_container;
+    padding: 10px 0px;
+    color: $main_color_white;
+    font-size: $font_small;
+    font-weight: lighter;
+    margin: auto;
+    @include centered;
+    justify-content: space-between;
+
+    .nav-left{
+      display: flex;
+
+      .fa-clock{
+        padding-right: 7px;
+      }
+    }
+
+    .nav-right{
+      display: flex;
+
+      .contact-info{
+        @include centered;
+        padding-right: 20px;
+
+        .fa-phone-alt, .fa-envelope{
+          padding-right: 7px;
+        }
+
+        .fa-facebook-f, .fa-twitter{
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}

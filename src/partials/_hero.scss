@@ -1,0 +1,28 @@
+@mixin centered {
+  display: flex;
+  align-items: center;
+}
+
+.hero{
+  height: 650px;
+  background-image: url('../img/bg-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .bottom-navbar{
+    max-width: $small_container;
+    margin: auto;
+    color: $main_color_white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+    .nav-list{
+      @include centered;
+
+      p, i{
+        padding-right: 35px;
+      }
+    }
+  }
+}
