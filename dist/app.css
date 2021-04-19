@@ -27,6 +27,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 header {
   background-color: #21333E;
 }
@@ -151,4 +157,65 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-1 .boxes .box p {
   color: #505051;
   font-weight: 100;
+}
+
+.section-2 {
+  display: flex;
+  height: 500px;
+}
+.section-2 .right-side {
+  width: 50%;
+}
+.section-2 .right-side .mini-container {
+  width: 70%;
+  float: right;
+  padding-top: 45px;
+}
+.section-2 .right-side .mini-container .mini-top {
+  margin-bottom: 60px;
+}
+.section-2 .right-side .mini-container .mini-top p:first-of-type {
+  font-size: 14px;
+  color: #1a948f;
+  margin-bottom: 10px;
+}
+.section-2 .right-side .mini-container .mini-top h3 {
+  font-weight: 800;
+  font-size: 46px;
+  margin: 25px 0px;
+}
+.section-2 .right-side .mini-container .mini-top h3 span {
+  color: #097a7c;
+  background-color: #DAECED;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.section-2 .right-side .mini-container .mini-top p {
+  color: #505051;
+  font-weight: 100;
+}
+.section-2 .right-side .mini-container .mini-bottom .column {
+  float: left;
+  width: calc(100% / 3);
+}
+.section-2 .right-side .mini-container .mini-bottom .column .number {
+  color: #1a948f;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.section-2 .right-side .mini-container .mini-bottom .column p {
+  font-weight: 100;
+}
+.section-2 .right-side .mini-container .mini-bottom .column h4 {
+  padding: 15px 0px;
+}
+.section-2 .right-side .mini-container .mini-bottom .btn-empty {
+  color: #1a948f;
+}
+.section-2 .left-side {
+  width: 50%;
+  background-image: url("../img/about-5.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
