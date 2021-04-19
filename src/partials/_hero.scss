@@ -8,6 +8,7 @@
   background-image: url('../img/bg-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  filter: brightness(0.8);
 
   .bottom-navbar{
     max-width: $small_container;

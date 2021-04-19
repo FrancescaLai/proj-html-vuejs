@@ -6,7 +6,7 @@
   padding: 8px 15px;
   color: #ffff;
   border-radius: 3px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 .btn.btn-full {
   background-color: #1a948f;
@@ -31,6 +31,12 @@ body {
   content: "";
   display: block;
   clear: both;
+}
+
+.active {
+  background-color: #0E272D;
+  padding: 3px 10px;
+  border-radius: 3px;
 }
 
 header {
@@ -73,6 +79,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-image: url("../img/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  filter: brightness(0.8);
 }
 .hero .bottom-navbar {
   max-width: 800px;
@@ -161,7 +168,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 
 .section-2 {
   display: flex;
-  height: 500px;
+  margin-left: 120px;
 }
 .section-2 .right-side {
   width: 50%;
@@ -169,7 +176,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-2 .right-side .mini-container {
   width: 70%;
   float: right;
-  padding-top: 45px;
+  padding: 45px 20px 45px 0px;
 }
 .section-2 .right-side .mini-container .mini-top {
   margin-bottom: 60px;
@@ -181,7 +188,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .section-2 .right-side .mini-container .mini-top h3 {
   font-weight: 800;
-  font-size: 46px;
+  font-size: 38px;
   margin: 25px 0px;
 }
 .section-2 .right-side .mini-container .mini-top h3 span {
@@ -197,18 +204,24 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-2 .right-side .mini-container .mini-bottom .column {
   float: left;
   width: calc(100% / 3);
+  padding-right: 10px;
 }
 .section-2 .right-side .mini-container .mini-bottom .column .number {
   color: #1a948f;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 800;
   margin-left: 10px;
 }
 .section-2 .right-side .mini-container .mini-bottom .column p {
   font-weight: 100;
+  font-size: 14px;
 }
 .section-2 .right-side .mini-container .mini-bottom .column h4 {
   padding: 15px 0px;
+  letter-spacing: 1px;
+}
+.section-2 .right-side .mini-container .mini-bottom .column:last-of-type {
+  padding-right: 0px;
 }
 .section-2 .right-side .mini-container .mini-bottom .btn-empty {
   color: #1a948f;
@@ -217,5 +230,78 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   width: 50%;
   background-image: url("../img/about-5.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
+}
+
+.section-3 {
+  background-color: black;
+  padding: 30px 0px;
+}
+.section-3 p {
+  color: #1a948f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-3 h3 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 38px;
+  color: #ffff;
+  text-align: center;
+}
+.section-3 h3 span {
+  background-color: #0E272D;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.section-3 .nav-list {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.section-3 .nav-list li {
+  color: #babdbe;
+  display: inline;
+  list-style: none;
+  text-align: center;
+  padding: 8px;
+}
+.section-3 .grid {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.section-3 .grid .row-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.section-3 .grid .feat-box {
+  height: 250px;
+  width: 250px;
+  background-size: contain;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.section-3 .grid .feat-box img {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(0.5);
+}
+.section-3 .grid .feat-box .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.section-3 .grid .feat-box .overlay p {
+  position: absolute;
+  bottom: 0px;
+}
+.section-3 .grid .feat-box p {
+  font-family: "Dela Gothic One", cursive;
+  color: #ffff;
+  padding: 10px;
 }

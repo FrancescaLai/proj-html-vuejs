@@ -1,6 +1,6 @@
 .section-2 {
   display: flex;
-  height: 500px;
+  margin-left: 120px;
 
   .right-side{
     width: $half_container;
@@ -8,7 +8,7 @@
     .mini-container{
       width: 70%;
       float: right;
-      padding-top: 45px;
+      padding: 45px 20px 45px 0px;
 
       .mini-top{
         margin-bottom: 60px;
@@ -21,7 +21,7 @@
 
         h3{
           font-weight: 800;
-          font-size: $font_big;
+          font-size: $font_medium;
           margin: 25px 0px;
 
           span{
@@ -40,6 +40,7 @@
         .column{
           float: left;
           width: calc(100% / 3);
+          padding-right: 10px;
 
           .number{
             color: $main_color_green;
@@ -49,11 +50,19 @@
           }
           p{
             font-weight: 100;
+            font-size: $font_small;
           }
+
           h4{
             padding: 15px 0px;
+            letter-spacing: 1px;
           }
         }
+
+        .column:last-of-type{
+          padding-right: 0px;
+        }
+
         .btn-empty{
           color: $main_color_green;
         }
@@ -65,6 +74,6 @@
     width: $half_container;
     background-image: url('../img/about-5.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
 }

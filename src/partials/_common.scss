@@ -13,3 +13,9 @@ body{
   display: block;
   clear: both;
 }
+
+.active{
+  background-color: $dark_green;
+  padding: 3px 10px;
+  border-radius: $btn_border_radius
+}
