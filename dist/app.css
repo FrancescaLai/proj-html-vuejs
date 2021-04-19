@@ -8,13 +8,11 @@
   border-radius: 3px;
   margin-right: 5px;
 }
-
-.btn-full {
+.btn.btn-full {
   background-color: #1a948f;
   border: 1px solid #1a948f;
 }
-
-.btn-empty {
+.btn.btn-empty {
   background-color: transparent;
   border: 1px solid #1a948f;
 }
@@ -119,4 +117,38 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   color: #babdbe;
   word-spacing: 1.5px;
   letter-spacing: 0.8px;
+}
+
+.section-1 {
+  background-color: #EEF4ED;
+}
+.section-1 .boxes {
+  max-width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.section-1 .boxes .box {
+  height: 225px;
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.section-1 .boxes .box .icons {
+  color: #097a7c;
+  background-color: #DAECED;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.section-1 .boxes .box h4 {
+  padding: 15px 0px;
+}
+.section-1 .boxes .box p {
+  color: #505051;
+  font-weight: 100;
 }

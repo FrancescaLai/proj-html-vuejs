@@ -23,7 +23,7 @@
 
   <div id="root">
     <header>
-
+      <!-- Top Navbar -->
       <nav v-for="(data, index) in topNavbar" class="top-navbar">
         <div class="nav-left">
           <i class="fas fa-clock"></i>
@@ -45,8 +45,11 @@
           </div>
         </div>
       </nav>
+      <!-- /Top Navbar -->
 
+      <!-- Hero -->
       <div class="hero">
+        <!-- Bottom Navbar -->
         <div class="bottom-navbar">
           <p class="logo"><span>NEX</span>GEN</p>
           <div v-for="(item, index) in navList" class="nav-list">
@@ -59,7 +62,9 @@
             <button class="btn btn-full" type="button" name="button">{{ item.button }}</button>
           </div>
         </div>
+        <!-- /Bottom Navbar -->
 
+        <!-- Hero content -->
         <div class="hero-content">
           <div class="content">
             <p>HUMAN RESOURCES</p>
@@ -71,14 +76,34 @@
             </div>
           </div>
         </div>
+        <!-- Hero content -->
       </div>
-
+      <!-- /Hero -->
     </header>
 
+    <main>
+      <section class="section-1">
+        <div class="boxes">
+          <div class="box">
+            <i class="icons far fa-user"></i>
+            <h4>Human Capital</h4>
+            <p>Humanazing business: Harness the power of technology to improve the way people work.</p>
+          </div>
+          <div class="box">
+            <i class="icons fas fa-chart-pie"></i>
+            <h4>Core Business</h4>
+            <p>It takes innovative approaches to transform, modernize and run existing platform.</p>
+          </div>
+          <div class="box">
+            <i class="icons far fa-clock"></i>
+            <h4>Performance</h4>
+            <p>Achieving maximun impact and value from investments in finance and supply chain.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
   </div>
-
-
-
 
   <script src="js/script.js" charset="utf-8"></script>
 </body>

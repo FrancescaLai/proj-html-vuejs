@@ -1,0 +1,39 @@
+.section-1{
+  background-color: $section_1_bcknd_color;
+
+  .boxes{
+    max-width: $small_container;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+
+    .box{
+      height: 225px;
+      width: 250px;
+      background-color: $main_color_white;
+      border-radius: $box_border_radius;
+      padding: 30px;
+
+      .icons{
+        color: $icons_color;
+        background-color: $icon_bcknd_color;
+        font-size: 20px;
+        border-radius: 50%;
+        padding: 15px;
+      }
+
+      h4{
+        padding: 15px 0px;
+      }
+
+      p{
+        color: #505051;
+        font-weight: 100;
+      }
+    }
+
+  }
+}
