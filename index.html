@@ -24,7 +24,7 @@
   <div id="root">
     <header>
       <!-- Top Navbar -->
-      <nav v-for="(data, index) in topNavbar" class="top-navbar">
+      <nav v-for="(data, index) in companyInfo" class="top-navbar">
         <div class="nav-left">
           <i class="fas fa-clock"></i>
           <p>Open Hours:<span>{{ data.openingDays }}</span> - <span>{{ data.openingHours }}</span> </p>
@@ -52,14 +52,10 @@
         <!-- Bottom Navbar -->
         <div class="bottom-navbar">
           <p class="logo"><span>NEX</span>GEN</p>
-          <div v-for="(item, index) in heroList" class="nav-list">
-            <p>{{ item.home }}</p>
-            <p>{{ item.about }}</p>
-            <p>{{ item.project }}</p>
-            <p>{{ item.process }}</p>
-            <p>{{ item.testimonials }}</p>
+          <div class="nav-list">
+            <a v-for="item in heroList" :href="item.url" target="_blank">{{ item.title }}</a>
             <i class="far fa-user"></i>
-            <button class="btn btn-full" type="button" name="button">{{ item.button }}</button>
+            <button class="btn btn-full" type="button" name="button">GET IN TOUCH</button>
           </div>
         </div>
         <!-- /Bottom Navbar -->
@@ -82,6 +78,8 @@
     </header>
 
     <main>
+
+      <!-- Section 1 -->
       <section class="section-1">
         <div class="small_container">
           <div class="boxes">
@@ -103,7 +101,9 @@
           </div>
         </div>
       </section>
+      <!-- /Section 1 -->
 
+      <!-- Section 2 (double section) -->
       <section class="double-section">
         <div class="right-side">
           <div class="mini-container">
@@ -140,7 +140,9 @@
         </div>
         <div class="left-side"></div>
       </section>
+      <!-- /Section 2 (double section) -->
 
+      <!-- Section 3 -->
       <section class="section-3">
         <p>WE DO MORE FOR EVERYONE</p>
         <h3>Actions & <span>Projects</span> </h3>
@@ -200,7 +202,9 @@
 
         </div>
       </section>
+      <!-- /Section 3 -->
 
+      <!-- Section 4 -->
       <section class="section-4">
         <h4>HOW IT WORKS IN PRACTICE</h4>
         <h3><span>Process</span>Management </h3>
@@ -234,7 +238,9 @@
           </div>
         </div>
       </section>
+      <!-- /Section 4 -->
 
+      <!-- Section 5 -->
       <section class="section-5">
         <div class="small_container">
           <h4>CUSTOMER TESTIMONIALS</h4>
@@ -258,15 +264,17 @@
               <i class="fas fa-quote-right"></i>
             </div>
           </div>
-
         </div>
-
       </section>
+      <!-- /Section 5 -->
 
     </main>
 
+
     <footer>
       <div class="small_container">
+
+        <!-- Footer Left -->
         <div class="footer-left">
           <h4>SEND A MESSAGE</h4>
           <h3>Get in <span>Touch</span> </h3>
@@ -286,11 +294,14 @@
             <button class="btn btn-full" type="button" name="button">SEND</button>
           </form>
         </div>
+        <!-- /Footer Left -->
+
+        <!-- Footer Right -->
         <div class="footer-right">
           <h5>Example Inc.</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          <div v-for="(data, index) in topNavbar" class="prova">
+          <div v-for="(data, index) in companyInfo" class="prova">
             <div class="footer-contact-info">
               <i class="fas fa-phone-alt"></i>
               <p>{{ data.phoneNumber}}</p>
@@ -307,6 +318,8 @@
 
           <button class="btn btn-empty" type="button" name="button">VIEW MAP</button>
         </div>
+        <!-- Footer Right -->
+
       </div>
     </footer>
 

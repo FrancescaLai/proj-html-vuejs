@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#root',
   data: {
-    topNavbar: [
+    companyInfo: [
       {
         openingDays: 'Mon - Sat',
         openingHours: '9.00 - 18.00',
@@ -12,13 +12,25 @@ var app = new Vue({
     ],
     heroList: [
       {
-        home: 'HOME',
-        about: 'ABOUT',
-        project: 'PROJECT',
-        process: 'PROCESS',
-        testimonials: 'TESTIMONIALS',
-        button: 'GET IN TOUCH'
-      }
+        title: 'HOME',
+        url: 'https://www.google.it',
+      },
+      {
+        title: 'ABOUT',
+        url: 'https://www.google.it',
+      },
+      {
+        title: 'PROJECT',
+        url: 'https://www.google.it',
+      },
+      {
+        title: 'PROCESS',
+        url: 'https://www.google.it',
+      },
+      {
+        title: 'TESTIMONIALS',
+        url: 'https://www.google.it',
+      },
     ]
   }
 });

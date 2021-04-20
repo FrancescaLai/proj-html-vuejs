@@ -34,7 +34,12 @@
     .nav-list{
       @include centered;
 
-      p, i{
+      a{
+        color: $main_color_white;
+        text-decoration: none;
+      }
+
+      a, i{
         padding-right: 20px;
       }
     }

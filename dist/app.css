@@ -7,6 +7,7 @@
   color: #ffff;
   border-radius: 3px;
   margin-right: 15px;
+  cursor: pointer;
 }
 .btn.btn-full {
   background-color: #1a948f;
@@ -15,6 +16,9 @@
 .btn.btn-empty {
   background-color: transparent;
   border: 1px solid #1a948f;
+}
+.btn:focus {
+  outline: none;
 }
 
 * {
@@ -216,7 +220,11 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   display: flex;
   align-items: center;
 }
-.hero .bottom-navbar .nav-list p, .hero .bottom-navbar .nav-list i {
+.hero .bottom-navbar .nav-list a {
+  color: #ffff;
+  text-decoration: none;
+}
+.hero .bottom-navbar .nav-list a, .hero .bottom-navbar .nav-list i {
   padding-right: 20px;
 }
 .hero .hero-content {
