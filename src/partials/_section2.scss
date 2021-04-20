@@ -33,7 +33,6 @@
         }
         p{
           color: $strong_color_grey;
-          font-weight: 100;
         }
       }
       .mini-bottom{
@@ -42,7 +41,7 @@
           width: calc(100% / 3);
           padding-right: 10px;
 
-          .number{
+          .statistics{
             color: $main_color_green;
             font-size: $font_medium;
             font-weight: 800;

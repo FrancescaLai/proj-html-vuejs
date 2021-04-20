@@ -199,14 +199,13 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .section-2 .right-side .mini-container .mini-top p {
   color: #505051;
-  font-weight: 100;
 }
 .section-2 .right-side .mini-container .mini-bottom .column {
   float: left;
   width: calc(100% / 3);
   padding-right: 10px;
 }
-.section-2 .right-side .mini-container .mini-bottom .column .number {
+.section-2 .right-side .mini-container .mini-bottom .column .statistics {
   color: #1a948f;
   font-size: 38px;
   font-weight: 800;
@@ -304,4 +303,55 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   font-family: "Dela Gothic One", cursive;
   color: #ffff;
   padding: 10px;
+}
+
+.section-4 {
+  padding: 30px 0px;
+}
+.section-4 P {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  color: #505051;
+  font-weight: 100;
+  word-spacing: 1px;
+  margin-top: 15px;
+}
+.section-4 h3 {
+  font-weight: 800;
+  font-size: 38px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.section-4 h3 span {
+  color: #097a7c;
+  background-color: #DAECED;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+.section-4 .all-steps {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.section-4 .all-steps .step {
+  position: relative;
+  width: 200px;
+}
+.section-4 .all-steps .step .step-num {
+  position: absolute;
+  left: 80px;
+  background-color: #DAECED;
+  border-radius: 50%;
+  padding: 10px;
+  color: #1a948f;
+  font-weight: bold;
+}
+.section-4 .all-steps .step .step-text {
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-align: center;
 }

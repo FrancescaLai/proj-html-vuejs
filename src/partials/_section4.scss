@@ -1,0 +1,57 @@
+.section-4{
+  padding: 30px 0px;
+
+  P{
+    text-align: center;
+    max-width: $small_container;
+    margin: auto;
+    color: $strong_color_grey;
+    font-weight: 100;
+    word-spacing: 1px;
+    margin-top: 15px;
+  }
+
+  h3{
+    font-weight: 800;
+    font-size: 38px;
+    margin: 20px 0px;
+    text-align: center;
+
+    span{
+      color: #097a7c;
+      background-color: #DAECED;
+      padding: 3px 10px;
+      border-radius: 3px;
+      margin-right: 3px;
+    }
+  }
+
+  .all-steps{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+    .step{
+      position: relative;
+      width: 200px;
+
+      .step-num{
+        position: absolute;
+        left: 80px;
+        background-color: $light_color_green;
+        border-radius: 50%;
+        padding: 10px;
+        color: $main_color_green;
+        font-weight: bold;
+      }
+
+      .step-text{
+        margin-top: 70px;
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+      }
+    }
+  }
+}
