@@ -1,75 +1,7 @@
 .section-5{
   background-color: $section_1_bcknd_color;
 
-  .small_container{
-    max-width: $small_container;
-    margin: auto;
-    padding: 50px 0px;
-
-    p{
-      text-align: center;
-      max-width: 800px;
-      margin: auto;
-      color: #1a948f;
-      font-weight: 100;
-      word-spacing: 1px;
-    }
-
-    h3{
-      font-weight: 800;
-      font-size: 38px;
-      margin: 20px 0px;
-      text-align: center;
-
-      span{
-        color: #097a7c;
-        background-color: #DAECED;
-        padding: 3px 10px;
-        border-radius: 3px;
-      }
-
-      &+p{
-        color: $strong_color_grey;
-      }
-    }
-
-    .boxes{
-      max-width: 800px;
-      margin: auto;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 50px 0px;
-
-      .box{
-        height: 225px;
-        width: 250px;
-        background-color: #ffff;
-        border-radius: 10px;
-        padding: 30px;
-
-        & img{
-          width: 50%;
-          margin-bottom: 30px;
-        }
-
-        h4{
-          padding: 15px 0px;
-        }
-
-        p{
-          color: #505051;
-          font-weight: 100;
-          text-align: left;
-        }
-
-        .fa-quote-right{
-          float: right;
-          color: $main_color_grey;
-          padding-top: 10px;
-        }
-      }
-    }
+  h3, p{
+    text-align: center;
   }
 }

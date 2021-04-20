@@ -1,39 +1,23 @@
 footer{
   background-color: black;
-  padding: 30px 0px;
+  padding: 50px 0px;
 
-  .container{
-    max-width: $small_container;
-    margin: auto;
-    padding: 50px 0px;
+  .small_container{
     display: flex;
 
     .footer-left{
       width: 70%;
       margin-right: 40px;
 
-      p{
-        font-size: $font_small;
+      h4{
         color: $main_color_green;
-        margin-bottom: 10px;
       }
 
       h3{
-        font-weight: 800;
-        font-size: 38px;
-        margin: 25px 0px;
         color: $main_color_white;
 
         & span{
-          color: $main_color_white;
           background-color: $dark_green;
-          padding: 3px 10px;
-          border-radius: 3px;
-        }
-
-        &+p{
-          color: $main_color_grey;
-          margin-bottom: 40px;
         }
       }
 

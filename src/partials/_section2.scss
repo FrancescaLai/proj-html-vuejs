@@ -1,6 +1,7 @@
-.section-2 {
+.double-section {
   display: flex;
   margin-left: 120px;
+  padding: 0;
 
   .right-side{
     width: $half_container;
@@ -10,31 +11,22 @@
       float: right;
       padding: 45px 20px 45px 0px;
 
-      .mini-top{
-        margin-bottom: 60px;
-
-        p:first-of-type{
-          font-size: $font_small;
-          color: $main_color_green;
-          margin-bottom: 10px;
+        h4{
+          text-align: left;
         }
 
         h3{
-          font-weight: 800;
-          font-size: $font_medium;
-          margin: 25px 0px;
+          color: black;
 
-          span{
+          & span{
             color: $strong_color_green;
-            background-color: $light_color_green;
-            padding: 3px 10px;
-            border-radius: $btn_border_radius;
           }
         }
+
         p{
-          color: $strong_color_grey;
+          font-weight: 100;
         }
-      }
+
       .mini-bottom{
         .column{
           float: left;
@@ -47,13 +39,9 @@
             font-weight: 800;
             margin-left: 10px;
           }
-          p{
-            font-weight: 100;
-            font-size: $font_small;
-          }
 
-          h4{
-            padding: 15px 0px;
+          h5{
+            padding-bottom: 15px;
             letter-spacing: 1px;
           }
         }

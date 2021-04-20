@@ -19,3 +19,57 @@ body{
   padding: 3px 10px;
   border-radius: $btn_border_radius
 }
+
+.small_container{
+  max-width: $small_container;
+  margin: auto;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+
+  .box{
+    height: 225px;
+    width: 250px;
+    background-color: $main_color_white;
+    border-radius: $box_border_radius;
+    padding: 30px;
+
+    .icons{
+      color: $icons_color;
+      background-color: $light_color_green;
+      font-size: 20px;
+      border-radius: 50%;
+      padding: 15px;
+    }
+
+    & img{
+      width: 50%;
+      margin-bottom: 30px;
+    }
+
+    h5{
+      padding: 15px 0px;
+    }
+
+    p{
+      color: $strong_color_grey;
+      font-weight: 100;
+      text-align: left;
+    }
+
+    .fa-quote-right{
+      float: right;
+      color: $main_color_grey;
+      padding-top: 10px;
+    }
+  }
+}
+
+
+section{
+  padding: $section_padding;
+}

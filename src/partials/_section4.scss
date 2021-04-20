@@ -1,33 +1,7 @@
 .section-4{
-  padding: 30px 0px;
 
-  P{
+  h3, p{
     text-align: center;
-    max-width: $small_container;
-    margin: auto;
-    color: $main_color_green;
-    font-weight: 100;
-    word-spacing: 1px;
-    margin-top: 15px;
-  }
-
-  h3{
-    font-weight: 800;
-    font-size: 38px;
-    margin: 20px 0px;
-    text-align: center;
-
-    &+p{
-      color: $strong_color_grey;
-    }
-
-    span{
-      color: #097a7c;
-      background-color: #DAECED;
-      padding: 3px 10px;
-      border-radius: 3px;
-      margin-right: 3px;
-    }
   }
 
   .all-steps{
