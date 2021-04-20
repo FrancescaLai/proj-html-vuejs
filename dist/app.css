@@ -395,13 +395,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .section-4 .all-steps .step .step-text {
   margin-top: 70px;
-  font-weight: bold;
-  font-size: 18px;
   color: black;
-  text-align: center;
-}
-.section-4 .all-steps .step p {
-  color: #505051;
 }
 
 .section-5 {
@@ -432,6 +426,7 @@ h3 span {
   background-color: #DAECED;
 }
 h3 + p {
-  color: #babdbe;
+  color: #505051;
   margin-bottom: 20px;
+  font-weight: lighter;
 }

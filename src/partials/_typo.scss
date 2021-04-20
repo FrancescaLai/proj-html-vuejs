@@ -20,7 +20,8 @@ h3{
   }
 
   &+p{
-    color: $main_color_grey;
+    color: $strong_color_grey;
     margin-bottom: 20px;
+    font-weight: lighter;
   }
 }

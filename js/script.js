@@ -7,9 +7,10 @@ var app = new Vue({
         openingHours: '9.00 - 18.00',
         phoneNumber: '+1 (305)1234-5678',
         email: 'hello@nexgen.com',
+        address: 'Main Avenue, 987'
       }
     ],
-    navList: [
+    heroList: [
       {
         home: 'HOME',
         about: 'ABOUT',
