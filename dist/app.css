@@ -8,6 +8,7 @@
   border-radius: 3px;
   margin-right: 15px;
   cursor: pointer;
+  text-decoration: none;
 }
 .btn.btn-full {
   background-color: #1a948f;
@@ -121,6 +122,9 @@ footer .small_container .footer-left .row input {
   border: 0px;
   border-radius: 3px;
   color: #505051;
+}
+footer .small_container .footer-left .row input:focus {
+  outline: none;
 }
 footer .small_container .footer-left .row input:nth-child(2n) {
   margin-left: 10px;

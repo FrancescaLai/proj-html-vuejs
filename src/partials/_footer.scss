@@ -1,5 +1,5 @@
 footer{
-  background-color: black;
+  background-color: $black_color;
   padding: 50px 0px;
 
   .small_container{
@@ -32,6 +32,10 @@ footer{
           border: 0px;
           border-radius: $btn_border_radius;
           color: $strong_color_grey;
+
+          &:focus{
+            outline: none;
+          }
         }
 
         input:nth-child(2n){
@@ -56,10 +60,9 @@ footer{
       }
 
       .footer-contact-info{
+        @include centered;
         margin: 20px 0px;
         color: $main_color_green;
-        display: flex;
-        align-items: center;
 
         p{
           margin-top: 0px;

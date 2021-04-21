@@ -1,19 +1,14 @@
-@mixin centered {
-  display: flex;
-  align-items: center;
-}
-
 header{
   background-color: #21333E;
 
   .top-navbar{
+    @include centered;
     max-width: $small_container;
     padding: 15px 0px;
     color: $main_color_grey;
     font-size: $font_small;
-    font-weight: lighter;
+    font-weight: $font_light;
     margin: auto;
-    @include centered;
     justify-content: space-between;
 
     .nav-left{

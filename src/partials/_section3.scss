@@ -1,5 +1,5 @@
 .section-3{
-  background-color: black;
+  background-color: $black_color;
 
   p{
     color: $main_color_green;
@@ -43,7 +43,6 @@
     .feat-box{
       height: 250px;
       width: 250px;
-      // background-image: url('../img/project-1.jpg');
       background-size: contain;
       border-radius: $box_border_radius;
       display: flex;
@@ -57,15 +56,10 @@
         }
 
         .overlay{
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
+          @include absolute-pos (0px, 0px, 0px, 0px);
 
           p{
-            position: absolute;
-            bottom: 0px;
+            @include absolute-pos (0px, 0px, 0px, 0px);
           }
         }
 

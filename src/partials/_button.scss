@@ -3,14 +3,10 @@
 }
 
 .btn{
-  padding: $btn_padding;
-  color: $main_color_white;
-  border-radius: $btn_border_radius;
-  margin-right: 15px;
-  cursor: pointer;
+  @include btn;
 
   &.btn-full{
-    background-color: #1a948f;
+    background-color: $main_color_green;
     border: $btn_border_full;
   }
 

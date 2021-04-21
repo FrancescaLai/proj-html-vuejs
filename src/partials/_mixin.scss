@@ -1,0 +1,40 @@
+// x centrare in verticale
+@mixin centered {
+  display: flex;
+  align-items: center;
+}
+
+// x posizionare in absolute
+@mixin absolute-pos ($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+// x i bottoni
+@mixin btn{
+  padding: $btn_padding;
+  color: $main_color_white;
+  border-radius: $btn_border_radius;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+// x le sezioni con 3 quadrati
+@mixin boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+@mixin box{
+  height: 225px;
+  width: 250px;
+  background-color: $main_color_white;
+  border-radius: $box_border_radius;
+  padding: 30px;
+}
