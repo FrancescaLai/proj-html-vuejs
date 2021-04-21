@@ -257,15 +257,6 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   letter-spacing: 0.8px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  filter: brightness(0.8);
-}
-
 .section-1 {
   background-color: #EEF4ED;
 }
@@ -373,7 +364,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-3 .grid .feat-box img {
   width: 100%;
   border-radius: 10px;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
 }
 .section-3 .grid .feat-box .overlay {
   position: absolute;
@@ -411,9 +402,6 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-color: #DAECED;
   position: absolute;
   top: 190px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
 }
 .section-4 .all-steps .step {
   position: relative;
