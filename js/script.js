@@ -32,6 +32,33 @@ var app = new Vue({
         title: 'TESTIMONIALS',
         url: 'https://www.google.it',
       },
+    ],
+    timeline: [
+      {
+        number: '01',
+        title: 'Collection of information',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
+      },
+      {
+        number: '02',
+        title: 'Collection of information',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
+      },
+      {
+        number: '03',
+        title: 'Collection of information',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
+      },
+      {
+        number: '04',
+        title: 'Collection of information',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
+      },
+      {
+        number: '05',
+        title: 'Collection of information',
+        paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
+      }
     ]
   }
 });
