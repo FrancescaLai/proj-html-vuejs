@@ -26,10 +26,17 @@ body{
 }
 
 .boxes{
-  @include boxes;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
 
   .box{
-    @include box;
+    height: 225px;
+    width: 250px;
+    background-color: $main_color_white;
+    border-radius: $box_border_radius;
+    padding: 30px;
 
     .icons{
       color: $icons_color;

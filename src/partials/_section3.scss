@@ -52,14 +52,19 @@
       img{
           width: 100%;
           border-radius: $box_border_radius;
-          filter: brightness(0.5);
+          filter: brightness(0.8);
         }
 
         .overlay{
-          @include absolute-pos (0px, 0px, 0px, 0px);
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
 
           p{
-            @include absolute-pos (0px, 0px, 0px, 0px);
+            position: absolute;
+            bottom: 0;
           }
         }
 

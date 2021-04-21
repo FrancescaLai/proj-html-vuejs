@@ -142,10 +142,10 @@ footer .small_container .footer-right p {
   font-size: 14px;
 }
 footer .small_container .footer-right .footer-contact-info {
-  margin: 20px 0px;
-  color: #1a948f;
   display: flex;
   align-items: center;
+  margin: 20px 0px;
+  color: #1a948f;
 }
 footer .small_container .footer-right .footer-contact-info p {
   margin-top: 0px;
@@ -162,14 +162,14 @@ header {
   background-color: #21333E;
 }
 header .top-navbar {
+  display: flex;
+  align-items: center;
   max-width: 800px;
   padding: 15px 0px;
   color: #babdbe;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: 100;
   margin: auto;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 header .top-navbar .nav-left {
@@ -198,14 +198,13 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-image: url("../img/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(0.8);
 }
 .hero .bottom-navbar {
+  display: flex;
+  align-items: center;
   max-width: 800px;
   margin: auto;
   color: #ffff;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-top: 25px;
 }
@@ -256,6 +255,15 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   color: #babdbe;
   word-spacing: 1.5px;
   letter-spacing: 0.8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: brightness(0.8);
 }
 
 .section-1 {
@@ -370,13 +378,13 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-3 .grid .feat-box .overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
+  left: 0;
+  bottom: 0;
 }
 .section-3 .grid .feat-box .overlay p {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 .section-3 .grid .feat-box p {
   font-family: "Dela Gothic One", cursive;
@@ -403,6 +411,9 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-color: #DAECED;
   position: absolute;
   top: 190px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 .section-4 .all-steps .step {
   position: relative;
@@ -415,7 +426,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   border-radius: 50%;
   padding: 10px;
   color: #1a948f;
-  font-weight: bold;
+  font-weight: 800;
 }
 .section-4 .all-steps .step .step-text {
   margin-top: 70px;
@@ -435,7 +446,7 @@ section h4 {
   margin: auto;
   color: #1a948f;
   word-spacing: 1px;
-  font-weight: 800px;
+  font-weight: 800;
 }
 
 h3 {
@@ -452,5 +463,5 @@ h3 span {
 h3 + p {
   color: #505051;
   margin-bottom: 20px;
-  font-weight: lighter;
+  font-weight: 100;
 }

@@ -16,7 +16,8 @@
       width: 100%;
       height: 5px;
       background-color: $light_color_green;
-      @include absolute-pos (190px);
+      position: absolute;
+      top: 190px;
     }
 
     .step{
@@ -24,7 +25,8 @@
       width: 200px;
 
       .step-num{
-        @include absolute-pos (0px, 0px, 0px, 80px);
+        position: absolute;
+        left: 80px;
         background-color: $light_color_green;
         border-radius: 50%;
         padding: 10px;

@@ -60,7 +60,8 @@ footer{
       }
 
       .footer-contact-info{
-        @include centered;
+        display: flex;
+        align-items: center;
         margin: 20px 0px;
         color: $main_color_green;
 
