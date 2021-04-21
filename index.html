@@ -84,20 +84,10 @@
       <section class="section-1">
         <div class="small_container">
           <div class="boxes">
-            <div class="box">
-              <i class="icons far fa-user"></i>
-              <h5>Human Capital</h5>
-              <p>Humanazing business: Harness the power of technology to improve the way people work.</p>
-            </div>
-            <div class="box">
-              <i class="icons fas fa-chart-pie"></i>
-              <h5>Core Business</h5>
-              <p>It takes innovative approaches to transform, modernize and run existing platform.</p>
-            </div>
-            <div class="box">
-              <i class="icons far fa-clock"></i>
-              <h5>Performance</h5>
-              <p>Achieving maximun impact and value from investments in finance and supply chain.</p>
+            <div v-for="box in boxes" class="box">
+              <i class="icons" :class="box.icon"></i>
+              <h5>{{ box.title }}</h5>
+              <p>{{ box.paragraph }}</p>
             </div>
           </div>
         </div>
@@ -218,26 +208,6 @@
             <h4 class="step-text">{{ step.title }}</h4>
             <p>{{ step.paragraph }}.</p>
           </div>
-          <!-- <div class="step">
-            <p class="step-num">02</p>
-            <h4 class="step-text">Strategic planning</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          </div>
-          <div class="step">
-            <p class="step-num">03</p>
-            <h4 class="step-text">Assignment of responsabilities</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          </div>
-          <div class="step">
-            <p class="step-num">04</p>
-            <h4 class="step-text">Formatting process</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          </div>
-          <div class="step">
-            <p class="step-num">05</p>
-            <h4 class="step-text">Continuity formalization</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          </div> -->
         </div>
       </section>
       <!-- /Section 4 -->
