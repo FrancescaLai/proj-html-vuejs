@@ -8,7 +8,7 @@
   .all-steps{
     display: flex;
     justify-content: space-evenly;
-    margin: 18px 0px 40px;
+    margin: 18px 0px;
 
     &::before{
       content: "";
@@ -17,7 +17,7 @@
       height: 5px;
       background-color: $light_color_green;
       position: absolute;
-      top: 190px;
+      top: 208px;
     }
 
     .step{
