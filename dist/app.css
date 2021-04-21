@@ -198,6 +198,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-image: url("../img/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 .hero .bottom-navbar {
   display: flex;
@@ -231,13 +232,23 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   padding-right: 20px;
 }
 .hero .hero-content {
-  height: 200px;
   max-width: 1024px;
   margin: auto;
   margin-top: 85px;
 }
 .hero .hero-content .content {
   width: 40%;
+  position: relative;
+}
+.hero .hero-content .content::before {
+  content: "";
+  display: block;
+  width: 85%;
+  height: 24px;
+  background-image: url("../img/sfondo.png");
+  position: absolute;
+  bottom: 120px;
+  border-radius: 5px;
 }
 .hero .hero-content .content h4 {
   color: #1a948f;
@@ -249,6 +260,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   font-family: "Dela Gothic One", cursive;
   font-size: 46px;
   color: #ffff;
+  position: relative;
 }
 .hero .hero-content .content .hero-text {
   margin-top: 15px;
@@ -287,19 +299,22 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .double-section .right-side .mini-container .mini-bottom .column {
   float: left;
-  width: calc(100% / 3);
-  padding-right: 50px;
+  width: calc((100% / 3) - 10px);
+  margin: 0px 10px 20px 0px;
 }
 .double-section .right-side .mini-container .mini-bottom .column .statistics {
   color: #1a948f;
   font-size: 38px;
   font-weight: 800;
-  margin-left: 10px;
+  margin: 0px 0px 15px 15px;
 }
 .double-section .right-side .mini-container .mini-bottom .column h5 {
   padding-bottom: 15px;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 20px;
+}
+.double-section .right-side .mini-container .mini-bottom .column p {
+  padding-right: 22px;
 }
 .double-section .right-side .mini-container .mini-bottom .btn-empty {
   color: #1a948f;
@@ -359,7 +374,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .section-3 .grid .feat-box img {
   width: 100%;
   border-radius: 10px;
-  filter: brightness(0.8);
+  filter: brightness(0.5);
 }
 .section-3 .grid .feat-box .overlay {
   position: absolute;

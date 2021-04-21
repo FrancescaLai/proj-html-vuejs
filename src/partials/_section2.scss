@@ -29,26 +29,25 @@
       .mini-bottom{
         .column{
           float: left;
-          width: calc(100% / 3);
-          padding-right: 50px;
+          width: calc((100% / 3) - 10px);
+          margin: 0px 10px 20px 0px;
 
           .statistics{
             color: $main_color_green;
             font-size: $font_medium;
             font-weight: $font_strong;
-            margin-left: 10px;
+            margin: 0px 0px 15px 15px;
           }
 
           h5{
             padding-bottom: 15px;
             letter-spacing: 2px;
-            font-size: 15px;
+            font-size: 20px;
+          }
+          p{
+            padding-right: 22px;
           }
         }
-
-        // .column:last-of-type{
-        //   padding-right: 0px;
-        // }
 
         .btn-empty{
           color: $main_color_green;

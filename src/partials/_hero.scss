@@ -3,6 +3,8 @@
   background-image: url('../img/bg-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
+
 
   .bottom-navbar{
     display: flex;
@@ -42,13 +44,24 @@
   }
 
   .hero-content{
-    height: 200px;
     max-width: $small_container;
     margin: auto;
     margin-top: 85px;
 
     .content{
       width: 40%;
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 85%;
+        height: 24px;
+        background-image: url('../img/sfondo.png');
+        position: absolute;
+        bottom: 120px;
+        border-radius: 5px;
+      }
 
       h4{
         color: $main_color_green;
@@ -62,7 +75,9 @@
         font-family: 'Dela Gothic One', cursive;
         font-size: $font_big;
         color: $main_color_white;
+        position: relative;
       }
+
 
       .hero-text{
         margin-top: 15px;
