@@ -45,7 +45,7 @@ body {
 }
 
 .small_container {
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
 }
 
@@ -56,8 +56,7 @@ body {
   padding: 25px 0px;
 }
 .boxes .box {
-  height: 225px;
-  width: 250px;
+  width: 300px;
   background-color: #ffff;
   border-radius: 10px;
   padding: 30px;
@@ -164,7 +163,7 @@ header {
 header .top-navbar {
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 1024px;
   padding: 15px 0px;
   color: #babdbe;
   font-size: 14px;
@@ -202,7 +201,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .hero .bottom-navbar {
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
   color: #ffff;
   justify-content: space-between;
@@ -232,12 +231,12 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .hero .hero-content {
   height: 200px;
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
   margin-top: 85px;
 }
 .hero .hero-content .content {
-  width: 60%;
+  width: 40%;
 }
 .hero .hero-content .content h4 {
   color: #1a948f;
@@ -263,14 +262,13 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 
 .double-section {
   display: flex;
-  margin-left: 120px;
+  justify-content: flex-end;
   padding: 0;
 }
 .double-section .right-side {
-  width: 50%;
+  width: 512px;
 }
 .double-section .right-side .mini-container {
-  width: 70%;
   float: right;
   padding: 45px 20px 45px 0px;
 }
@@ -332,8 +330,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .section-3 .nav-list {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin: 50px 0px;
 }
 .section-3 .nav-list li {
   color: #babdbe;
@@ -343,18 +340,17 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   padding: 8px;
 }
 .section-3 .grid {
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
   margin-bottom: 40px;
 }
 .section-3 .grid .row-grid {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .section-3 .grid .feat-box {
-  height: 250px;
-  width: 250px;
+  width: 300px;
   background-size: contain;
   border-radius: 10px;
   display: flex;
@@ -430,7 +426,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 
 section h4 {
   text-align: center;
-  max-width: 800px;
+  max-width: 1024px;
   margin: auto;
   color: #1a948f;
   word-spacing: 1px;

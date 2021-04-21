@@ -1,13 +1,12 @@
 .double-section {
   display: flex;
-  margin-left: 120px;
+  justify-content: flex-end;
   padding: 0;
 
   .right-side{
-    width: $half_container;
+    width: 512px;
 
     .mini-container{
-      width: 70%;
       float: right;
       padding: 45px 20px 45px 0px;
 

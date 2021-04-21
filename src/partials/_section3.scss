@@ -17,8 +17,7 @@
   }
   .nav-list {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 50px 0px;
 
     & li{
       color: $main_color_grey;
@@ -37,12 +36,11 @@
     .row-grid{
       display: flex;
       justify-content: space-between;
-      margin-top: 20px;
+      margin-top: 50px;
     }
 
     .feat-box{
-      height: 250px;
-      width: 250px;
+      width: 300px;
       background-size: contain;
       border-radius: $box_border_radius;
       display: flex;
