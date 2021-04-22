@@ -83,7 +83,7 @@
       <section class="section-1">
         <div class="small_container">
           <div class="boxes">
-            <div v-for="box in boxTop" class="box">
+            <div v-for="box in boxes[indiceAttivo].boxTop" class="box">
               <i class="icons" :class="box.icon"></i>
               <h5>{{ box.title }}</h5>
               <p>{{ box.paragrap }}</p>
@@ -193,7 +193,7 @@
           <p>We work intensively in search of ideals that can add up in the lives of pur customers. This is what moves us and we are grateful for the recognitions.</p>
 
           <div class="boxes">
-            <div v-for="box in boxBottom" class="box">
+            <div v-for="box in boxes[indiceAttivo].boxBottom" class="box">
               <img :src="box.img" :alt="box.paragraph">
               <p>{{box.paragraph}}</p>
               <i :class="box.icon"></i>

@@ -61,23 +61,44 @@ var app = new Vue({
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       }
     ],
-    boxTop: [
+    boxes: [
       {
-        icon: 'far fa-user',
-        title: 'Human Capital',
-        paragrap: 'Humanazing business: Harness the power of technology to improve the way people work.'
-      },
-      {
-        icon: 'fas fa-chart-pie',
-        title: 'Core Business',
-        paragrap: 'It takes innovative approaches to transform, modernize and run existing platform.'
-      },
-      {
-        icon: 'far fa-clock',
-        title: 'Performance',
-        paragrap: 'Achieving maximun impact and value from investments in finance and supply chain.'
+        boxTop: [
+          {
+            icon: 'far fa-user',
+            title: 'Human Capital',
+            paragrap: 'Humanazing business: Harness the power of technology to improve the way people work.'
+          },
+          {
+            icon: 'fas fa-chart-pie',
+            title: 'Core Business',
+            paragrap: 'It takes innovative approaches to transform, modernize and run existing platform.'
+          },
+          {
+            icon: 'far fa-clock',
+            title: 'Performance',
+            paragrap: 'Achieving maximun impact and value from investments in finance and supply chain.'
+          }
+        ],
+        boxBottom: [
+          {
+            img: 'img/logo-1.png',
+            paragraph: 'Humanazing business: Harness the power of technology to improve the way people work.',
+            icon: 'fas fa-quote-right'
+          },
+          {
+            img: 'img/logo-2.png',
+            paragraph: 'It takes innovative approaches to transform, modernize and run existing platform.',
+            icon: 'fas fa-quote-right'
+          },
+          {
+            img: 'img/logo-3.png',
+            paragraph: 'Achieving maximun impact and value from investments in finance and supply chain.',
+            icon: 'fas fa-quote-right'
+          }
+        ]
       }
-    ],
+    ],    
     gridImages: [
       {
         topRow: [
@@ -110,23 +131,6 @@ var app = new Vue({
         ]
       }
     ],
-    boxBottom: [
-      {
-        img: 'img/logo-1.png',
-        paragraph: 'Humanazing business: Harness the power of technology to improve the way people work.',
-        icon: 'fas fa-quote-right'
-      },
-      {
-        img: 'img/logo-2.png',
-        paragraph: 'It takes innovative approaches to transform, modernize and run existing platform.',
-        icon: 'fas fa-quote-right'
-      },
-      {
-        img: 'img/logo-3.png',
-        paragraph: 'Achieving maximun impact and value from investments in finance and supply chain.',
-        icon: 'fas fa-quote-right'
-      }
-    ]
   }
 }
 );
