@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '#root',
   data: {
+    indiceAttivo: 0,
     companyInfo: [
       {
         openingDays: 'Mon - Sat',
@@ -77,10 +78,53 @@ var app = new Vue({
         paragrap: 'Achieving maximun impact and value from investments in finance and supply chain.'
       }
     ],
+    gridImages: [
+      {
+        topRow: [
+          {
+            img: 'img/project-1.jpg',
+            paragraph: 'Academic professional program in social media'
+          },
+          {
+            img: 'img/project-2.jpg',
+            paragraph: 'President\'s speech at the annual meeting'
+          },
+          {
+            img: 'img/project-3.jpg',
+            paragraph: 'International business trip in Shangai'
+          }
+        ],
+        bottomRow: [
+          {
+            img: 'img/project-4.jpg',
+            paragraph: 'Technology workshop with education theme'
+          },
+          {
+            img: 'img/project-5.jpg',
+            paragraph: 'Donation of clothes and food to the partner NGO'
+          },
+          {
+            img: 'img/project-6.jpg',
+            paragraph: 'Confraternization of the procurement team'
+          },
+        ]
+      }  
+    ],
     boxBottom: [
       {
         img: 'img/logo-1.png',
-        text: ''
+        paragraph: 'Humanazing business: Harness the power of technology to improve the way people work.',
+        icon: 'fas fa-quote-right'
+      },
+      {
+        img: 'img/logo-2.png',
+        paragraph: 'It takes innovative approaches to transform, modernize and run existing platform.',
+        icon: 'fas fa-quote-right'
+      },
+      {
+        img: 'img/logo-3.png',
+        paragraph: 'Achieving maximun impact and value from investments in finance and supply chain.',
+        icon: 'fas fa-quote-right'
       }
     ]
   }
