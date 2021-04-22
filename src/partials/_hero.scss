@@ -3,6 +3,14 @@
   align-items: center;
 }
 
+@mixin pos-absolute ($top, $right, $bottom, $left){
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
 .hero{
   height: 650px;
   background-image: url('../img/bg-4.jpg');
@@ -62,8 +70,7 @@
         width: 84%;
         height: 24px;
         background-image: url('../img/sfondo.png');
-        position: absolute;
-        bottom: 120px;
+        @include pos-absolute(auto, auto, 120px, auto);
         border-radius: 5px;
       }
 

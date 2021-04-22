@@ -149,7 +149,7 @@
         <div class="grid">
           <div class="row-grid">
             <div v-for="item in gridImages[indiceAttivo].topRow" class="feat-box">
-              <img :src="item.img" alt="">
+              <img :src="item.img" :alt="item.paragraph">
               <div class="overlay">
                 <p>{{item.paragraph}}</p>
               </div>
@@ -158,12 +158,12 @@
 
           <div class="row-grid">
             <div v-for="item in gridImages[indiceAttivo].bottomRow" class="feat-box">
-              <img :src="item.img" alt="">
+              <img :src="item.img" :alt="item.paragraph">
               <div class="overlay">
                 <p>{{item.paragraph}}</p>
               </div>
             </div>
-          </div> 
+          </div>
 
         </div>
       </section>
@@ -194,7 +194,7 @@
 
           <div class="boxes">
             <div v-for="box in boxBottom" class="box">
-              <img :src="box.img" alt="">
+              <img :src="box.img" :alt="box.paragraph">
               <p>{{box.paragraph}}</p>
               <i :class="box.icon"></i>
             </div>

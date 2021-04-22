@@ -2,3 +2,20 @@
   display: flex;
   align-items: center;
 }
+
+@mixin btn {
+  padding: $btn_padding;
+  color: $main_color_white;
+  border-radius: $btn_border_radius;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@mixin pos-absolute ($top, $right, $bottom, $left){
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

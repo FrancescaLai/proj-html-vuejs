@@ -42,22 +42,22 @@ var app = new Vue({
       },
       {
         number: '02',
-        title: 'Collection of information',
+        title: 'Strategic planning',
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       },
       {
         number: '03',
-        title: 'Collection of information',
+        title: 'Assignment of responsabilities',
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       },
       {
         number: '04',
-        title: 'Collection of information',
+        title: 'Formatting process',
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       },
       {
         number: '05',
-        title: 'Collection of information',
+        title: 'Continuity formalization',
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       }
     ],
@@ -108,7 +108,7 @@ var app = new Vue({
             paragraph: 'Confraternization of the procurement team'
           },
         ]
-      }  
+      }
     ],
     boxBottom: [
       {

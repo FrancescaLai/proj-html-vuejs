@@ -1,3 +1,11 @@
+@mixin pos-absolute ($top, $right, $bottom, $left){
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
 .section-4{
   position: relative;
 
@@ -16,8 +24,7 @@
       width: 100%;
       height: 5px;
       background-color: $light_color_green;
-      position: absolute;
-      top: 208px;
+      @include pos-absolute(208px, auto, auto, auto);
     }
 
     .step{
@@ -25,8 +32,7 @@
       width: 200px;
 
       .step-num{
-        position: absolute;
-        left: 80px;
+        @include pos-absolute(auto, auto, auto, 80px);
         background-color: $light_color_green;
         border-radius: 50%;
         padding: 10px;

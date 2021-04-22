@@ -1,3 +1,11 @@
+@mixin pos-absolute ($top, $right, $bottom, $left){
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
 .section-3{
   background-color: $black_color;
 
@@ -54,11 +62,7 @@
         }
 
         .overlay{
-          position: absolute;
-          top: 0;
-          right: 0;
-          left: 0;
-          bottom: 0;
+          @include pos-absolute(0, 0, 0, 0);
 
           p{
             position: absolute;

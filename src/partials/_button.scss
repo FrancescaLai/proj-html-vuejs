@@ -1,14 +1,18 @@
-.buttons{
-  margin-top: 30px;
-}
-
-.btn{
+@mixin btn {
   padding: $btn_padding;
   color: $main_color_white;
   border-radius: $btn_border_radius;
   margin-right: 15px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.buttons{
+  margin-top: 30px;
+}
+
+.btn{
+  @include btn;
 
   &.btn-full{
     background-color: $main_color_green;

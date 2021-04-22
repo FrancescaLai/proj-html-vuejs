@@ -247,7 +247,10 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   height: 24px;
   background-image: url("../img/sfondo.png");
   position: absolute;
+  top: auto;
+  right: auto;
   bottom: 120px;
+  left: auto;
   border-radius: 5px;
 }
 .hero .hero-content .content h4 {
@@ -380,8 +383,8 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
 }
 .section-3 .grid .feat-box .overlay p {
   position: absolute;
@@ -412,6 +415,9 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-color: #DAECED;
   position: absolute;
   top: 208px;
+  right: auto;
+  bottom: auto;
+  left: auto;
 }
 .section-4 .all-steps .step {
   position: relative;
@@ -419,6 +425,9 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .section-4 .all-steps .step .step-num {
   position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
   left: 80px;
   background-color: #DAECED;
   border-radius: 50%;
