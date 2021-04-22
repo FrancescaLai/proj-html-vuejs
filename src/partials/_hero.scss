@@ -1,14 +1,18 @@
+@mixin centered {
+  display: flex;
+  align-items: center;
+}
+
 .hero{
   height: 650px;
   background-image: url('../img/bg-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  background-color: rgba(201, 76, 76, 0.3);
 
 
   .bottom-navbar{
-    display: flex;
-    align-items: center;
+    @include centered;
     max-width: $small_container;
     margin: auto;
     color: $main_color_white;
@@ -20,7 +24,7 @@
       color: $main_color_grey;
 
       & span{
-        background-color: rgba(9, 122, 124, 0.3);
+        background-color: rgba(54, 133, 214, 0.3);
         color: $main_color_green;
         padding: 7px 3px 7px 20px;
         border-radius: 15px 0px 0px 15px;
@@ -55,7 +59,7 @@
       &::before{
         content: "";
         display: block;
-        width: 85%;
+        width: 84%;
         height: 24px;
         background-image: url('../img/sfondo.png');
         position: absolute;

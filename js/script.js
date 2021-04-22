@@ -60,21 +60,27 @@ var app = new Vue({
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       }
     ],
-    boxes: [
+    boxTop: [
       {
         icon: 'far fa-user',
         title: 'Human Capital',
-        paragraph: 'Humanazing business: Harness the power of technology to improve the way people work.'
+        paragrap: 'Humanazing business: Harness the power of technology to improve the way people work.'
       },
       {
         icon: 'fas fa-chart-pie',
         title: 'Core Business',
-        paragraph: 'It takes innovative approaches to transform, modernize and run existing platform.'
+        paragrap: 'It takes innovative approaches to transform, modernize and run existing platform.'
       },
       {
         icon: 'far fa-clock',
         title: 'Performance',
-        paragraph: 'Achieving maximun impact and value from investments in finance and supply chain.'
+        paragrap: 'Achieving maximun impact and value from investments in finance and supply chain.'
+      }
+    ],
+    boxBottom: [
+      {
+        img: 'img/logo-1.png',
+        text: ''
       }
     ]
   }

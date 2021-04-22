@@ -11,12 +11,12 @@
   text-decoration: none;
 }
 .btn.btn-full {
-  background-color: #1a948f;
+  background-color: #3685d6;
   border: 1px solid #1a948f;
 }
 .btn.btn-empty {
   background-color: transparent;
-  border: 1px solid #1a948f;
+  border: 1px solid #3685d6;
 }
 .btn:focus {
   outline: none;
@@ -62,7 +62,7 @@ body {
   padding: 30px;
 }
 .boxes .box .icons {
-  color: #097a7c;
+  color: #3685d6;
   background-color: #DAECED;
   font-size: 20px;
   border-radius: 50%;
@@ -103,7 +103,7 @@ footer .small_container .footer-left {
   margin-right: 40px;
 }
 footer .small_container .footer-left h4 {
-  color: #1a948f;
+  color: #3685d6;
 }
 footer .small_container .footer-left h3 {
   color: #ffff;
@@ -145,11 +145,11 @@ footer .small_container .footer-right .footer-contact-info {
   display: flex;
   align-items: center;
   margin: 20px 0px;
-  color: #1a948f;
+  color: #3685d6;
 }
 footer .small_container .footer-right .footer-contact-info p {
   margin-top: 0px;
-  color: #1a948f;
+  color: #3685d6;
   margin-left: 15px;
 }
 footer .small_container .footer-right .footer-contact-info .fas {
@@ -198,7 +198,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-image: url("../img/bg-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  background-color: rgba(201, 76, 76, 0.3);
 }
 .hero .bottom-navbar {
   display: flex;
@@ -214,8 +214,8 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   color: #babdbe;
 }
 .hero .bottom-navbar .logo span {
-  background-color: rgba(9, 122, 124, 0.3);
-  color: #1a948f;
+  background-color: rgba(54, 133, 214, 0.3);
+  color: #3685d6;
   padding: 7px 3px 7px 20px;
   border-radius: 15px 0px 0px 15px;
   margin-right: 3px;
@@ -243,7 +243,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 .hero .hero-content .content::before {
   content: "";
   display: block;
-  width: 85%;
+  width: 84%;
   height: 24px;
   background-image: url("../img/sfondo.png");
   position: absolute;
@@ -251,10 +251,10 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   border-radius: 5px;
 }
 .hero .hero-content .content h4 {
-  color: #1a948f;
+  color: #3685d6;
 }
 .hero .hero-content .content p {
-  color: #1a948f;
+  color: #3685d6;
 }
 .hero .hero-content .content h1 {
   font-family: "Dela Gothic One", cursive;
@@ -292,7 +292,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   color: black;
 }
 .double-section .right-side .mini-container h3 span {
-  color: #097a7c;
+  color: #3685d6;
 }
 .double-section .right-side .mini-container p {
   font-weight: 100;
@@ -303,7 +303,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   margin: 0px 10px 20px 0px;
 }
 .double-section .right-side .mini-container .mini-bottom .column .statistics {
-  color: #1a948f;
+  color: #3685d6;
   font-size: 38px;
   font-weight: 800;
   margin: 0px 0px 15px 15px;
@@ -317,7 +317,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   padding-right: 22px;
 }
 .double-section .right-side .mini-container .mini-bottom .btn-empty {
-  color: #1a948f;
+  color: #3685d6;
 }
 .double-section .left-side {
   width: 50%;
@@ -330,7 +330,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-color: black;
 }
 .section-3 p {
-  color: #1a948f;
+  color: #3685d6;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -423,12 +423,13 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   background-color: #DAECED;
   border-radius: 50%;
   padding: 10px;
-  color: #1a948f;
+  color: #3685d6;
   font-weight: 800;
 }
 .section-4 .all-steps .step .step-text {
   margin-top: 70px;
   color: black;
+  margin-bottom: 15px;
 }
 
 .section-5 {
@@ -442,7 +443,7 @@ section h4 {
   text-align: center;
   max-width: 1024px;
   margin: auto;
-  color: #1a948f;
+  color: #3685d6;
   word-spacing: 1px;
   font-weight: 800;
 }
@@ -451,7 +452,7 @@ h3 {
   font-weight: 800;
   font-size: 38px;
   margin: 20px 0px;
-  color: #097a7c;
+  color: #3685d6;
 }
 h3 span {
   padding: 3px 10px;
