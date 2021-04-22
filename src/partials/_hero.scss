@@ -51,6 +51,11 @@
 
       a, i{
         padding-right: 20px;
+        cursor: pointer;
+
+        &:hover{
+          color: $main_color_green;
+        }
       }
     }
   }

@@ -38,7 +38,7 @@ body {
   clear: both;
 }
 
-.active {
+li.active {
   background-color: #0E272D;
   padding: 3px 10px;
   border-radius: 3px;
@@ -230,6 +230,10 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
 }
 .hero .bottom-navbar .nav-list a, .hero .bottom-navbar .nav-list i {
   padding-right: 20px;
+  cursor: pointer;
+}
+.hero .bottom-navbar .nav-list a:hover, .hero .bottom-navbar .nav-list i:hover {
+  color: #3685d6;
 }
 .hero .hero-content {
   max-width: 1024px;
@@ -355,6 +359,7 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   list-style: none;
   text-align: center;
   padding: 8px;
+  cursor: pointer;
 }
 .section-3 .grid {
   max-width: 1024px;

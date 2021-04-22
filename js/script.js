@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '#root',
   data: {
+    selezionato: null,
     indiceAttivo: 0,
     companyInfo: [
       {
@@ -98,7 +99,7 @@ var app = new Vue({
           }
         ]
       }
-    ],    
+    ],
     gridImages: [
       {
         topRow: [
@@ -131,6 +132,12 @@ var app = new Vue({
         ]
       }
     ],
-  }
+    listed: ['ALL', 'INSTITUTIONAL', 'SOCIAL', 'EVENTS', 'INNOVATION', 'ENVIRONMENT', 'TECHNOLOGY']
+  },
+  methods: {
+    selectItem(i) {
+      this.selezionato = i;
+    },
+  },
 }
 );
