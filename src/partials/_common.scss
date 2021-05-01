@@ -71,3 +71,11 @@ li.active{
 section{
   padding: $section_padding;
 }
+
+.section-5, .section-1{
+  background-color: $light_green_background;
+
+  h3, p{
+    text-align: center;
+  }
+}

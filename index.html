@@ -83,7 +83,7 @@
       <section class="section-1">
         <div class="small_container">
           <div class="boxes">
-            <div v-for="box in boxes[indiceAttivo].boxTop" class="box">
+            <div v-for="box in boxes.boxTop" class="box">
               <i class="icons" :class="box.icon"></i>
               <h5>{{ box.title }}</h5>
               <p>{{ box.paragrap }}</p>
@@ -138,11 +138,11 @@
         <p>WE DO MORE FOR EVERYONE</p>
         <h3>Actions & <span>Projects</span> </h3>
         <ul class="nav-list">
-          <li v-for="(item, i) in listed" @click="selectItem(i)" :key="i" :class="{ active: i == selezionato}">{{item}}</li>
+          <li v-for="(item, i) in listed" @click="selectItem(i)" :class="{ active: i == selezionato}">{{item}}</li>
         </ul>
         <div class="grid">
           <div class="row-grid">
-            <div v-for="item in gridImages[indiceAttivo].topRow" class="feat-box">
+            <div v-for="item in gridImages.topRow" class="feat-box">
               <img :src="item.img" :alt="item.paragraph">
               <div class="overlay">
                 <p>{{item.paragraph}}</p>
@@ -151,7 +151,7 @@
           </div>
 
           <div class="row-grid">
-            <div v-for="item in gridImages[indiceAttivo].bottomRow" class="feat-box">
+            <div v-for="item in gridImages.bottomRow" class="feat-box">
               <img :src="item.img" :alt="item.paragraph">
               <div class="overlay">
                 <p>{{item.paragraph}}</p>
@@ -187,7 +187,7 @@
           <p>We work intensively in search of ideals that can add up in the lives of pur customers. This is what moves us and we are grateful for the recognitions.</p>
 
           <div class="boxes">
-            <div v-for="box in boxes[indiceAttivo].boxBottom" class="box">
+            <div v-for="box in boxes.boxBottom" class="box">
               <img :src="box.img" :alt="box.paragraph">
               <p>{{box.paragraph}}</p>
               <i :class="box.icon"></i>

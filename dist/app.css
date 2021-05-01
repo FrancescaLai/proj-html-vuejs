@@ -90,6 +90,13 @@ section {
   padding: 50px 0px;
 }
 
+.section-5, .section-1 {
+  background-color: #EEF4ED;
+}
+.section-5 h3, .section-5 p, .section-1 h3, .section-1 p {
+  text-align: center;
+}
+
 footer {
   background-color: black;
   padding: 50px 0px;
@@ -276,10 +283,6 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   letter-spacing: 0.8px;
 }
 
-.section-1 {
-  background-color: #EEF4ED;
-}
-
 .double-section {
   display: flex;
   justify-content: flex-end;
@@ -444,13 +447,6 @@ header .top-navbar .nav-right .contact-info .fa-facebook-f, header .top-navbar .
   margin-top: 70px;
   color: black;
   margin-bottom: 15px;
-}
-
-.section-5 {
-  background-color: #EEF4ED;
-}
-.section-5 h3, .section-5 p {
-  text-align: center;
 }
 
 section h4 {

@@ -2,7 +2,6 @@ var app = new Vue({
   el: '#root',
   data: {
     selezionato: null,
-    indiceAttivo: 0,
     companyInfo: [
       {
         openingDays: 'Mon - Sat',
@@ -62,8 +61,7 @@ var app = new Vue({
         paragraph: 'Lorem ipsum dolor sit amet, consectetur.'
       }
     ],
-    boxes: [
-      {
+    boxes: {
         boxTop: [
           {
             icon: 'far fa-user',
@@ -98,10 +96,8 @@ var app = new Vue({
             icon: 'fas fa-quote-right'
           }
         ]
-      }
-    ],
-    gridImages: [
-      {
+      },
+    gridImages: {
         topRow: [
           {
             img: 'img/project-1.jpg',
@@ -130,8 +126,7 @@ var app = new Vue({
             paragraph: 'Confraternization of the procurement team'
           },
         ]
-      }
-    ],
+      },
     listed: ['ALL', 'INSTITUTIONAL', 'SOCIAL', 'EVENTS', 'INNOVATION', 'ENVIRONMENT', 'TECHNOLOGY']
   },
   methods: {
